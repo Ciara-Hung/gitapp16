@@ -1,0 +1,19 @@
+檢查git版本
+git --version
+
+檢查git基本設定
+git config --list
+
+檢查使用者名稱和使用者email
+git config --global user.name
+git config --global user.email
+
+設定使用者名稱和使用者email
+git config --global user.name "名稱"
+git config --global user.email "email"
+
+cd 切換目錄
+cd .. 回上一個目錄
+ls -al 檢視工作目錄全部資料
+
+此資料夾受git版本控制 生成.git隱藏資料夾
