@@ -45,6 +45,8 @@ git commit -am "message"
 
 修改最近一次commit訊息
 git commit --amend -m "訊息內容"
+把異動紀錄新增到最近一次commit
+git commit --amend --no-edit
 
 ==============================================
 #為什麼兩次
